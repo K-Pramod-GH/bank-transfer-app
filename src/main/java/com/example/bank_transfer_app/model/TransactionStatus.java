@@ -1,5 +1,6 @@
 package com.example.bank_transfer_app.model;
 
-public class TransactionStatus {
-    
+public enum TransactionStatus {
+    SUCCESS,
+    FAILED
 }
